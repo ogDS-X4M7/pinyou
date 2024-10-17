@@ -1,0 +1,147 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.shortcut {
+    height: 31px;
+    background-color: #F1F1F1;
+    line-height: 31px;
+    font-size: 12px;
+    color: #666666;
+}
+
+.fl {
+    float: left;
+    padding-right: 12px;
+}
+.fl .login {
+    color: #666666;
+}
+.fl .register {
+    color: #C81623;
+}
+
+.fr{
+    float: right;
+}
+.fr li {
+    float: left;
+}
+.fr .arrow::after {
+    content: "";
+    font-family: 'icomoon';
+    margin-left: 6px;
+}
+.fr a {
+    color: #666666;
+}
+.fr ul li:nth-of-type(2n) {
+    padding: 0 12px;
+}
+
+.footer {
+    height: 417px;
+    background: #f5f5f5;
+    margin-top: 31px;
+}
+.footer .mod_service {
+    height: 110px;
+    border-bottom: 1px solid #ededed;
+}
+.footer .mod_service ul {
+    padding: 30px 0;
+    height: 50px;
+}
+.footer .mod_service li {
+    float: left;
+    width: 200px;
+    padding-left: 40px;
+}
+.footer .mod_service li div[class^="modpic"] {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-right: 7px;
+    background-image: url(../images/icons.png);
+    background-repeat: no-repeat;
+}
+.footer .mod_service li .modpic1 {
+    background-position: -253px -2px;
+}
+.footer .mod_service li .modpic2 {
+    background-position: -254px -53px;
+}
+.footer .mod_service li .modpic3 {
+    background-position: -256px -105px;
+}
+.footer .mod_service li .modpic4 {
+    background-position: -258px -156px;
+}
+.footer .mod_service li .modpic5 {
+    background-position: -258px -208px;
+}
+.footer .mod_service li h4 {
+    font-size: 14px;
+    line-height: 34px;
+    color: #333333;
+}
+.footer .mod_service li p {
+    font-size: 12px;
+    color: #666666;
+}
+
+.footer .helper {
+    height: 188px;
+    border-bottom: 1px solid #ededed;
+}
+.footer .helper ul {
+    float: left;
+    width: 150px;
+    height: 100%;
+    /* height: calc(100%-21px); */
+    padding-left: 50px;
+    padding-top: 21px;
+}
+.footer .helper ul li h4 {
+    font: normal 400 16px/21px 'Microsoft YaHei';
+    color: #333333;
+    padding-bottom: 7px;
+}
+.footer .helper ul li img {
+    margin-left: -13px;
+    margin-top: 3px;
+}
+.footer .helper ul li a {
+    display: block;
+    height: 20px;
+    font: normal 400 12px/20px 'SimSun';
+    color: #333333;
+}
+
+.footer .message {
+    height: 99px;
+    padding-top: 20px;
+    text-align: center;
+}
+.footer .message ul {
+    height: 12px;
+    margin: 0 auto;
+    /* margin-bottom: 10px; */
+    margin-left: 114px;
+}
+.footer .message li {
+    float: left;
+}
+.footer .message li a {
+    font: normal 400 12px 'SimSun';
+    color: #666666;
+}
+.footer .message li em {
+    padding: 0 14px 0 13px;
+    color: #666666;
+}
+.footer .message p {
+    font: normal 400 12px/20px 'SimSun';
+    color: #666666;
+}
